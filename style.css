@@ -1,0 +1,51 @@
+body {
+  position: relative;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #2c3e50; /* Темний фон */
+}
+
+#difficultyMenu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#difficultyMenu button {
+  font-size: 24px; /* Збільшуємо розмір тексту */
+  padding: 15px 30px; /* Збільшуємо внутрішні відступи */
+  margin: 10px; /* Збільшуємо зовнішні відступи */
+  cursor: pointer;
+  border: none;
+  border-radius: 10px; /* Збільшуємо радіус кутів */
+  background-color: #8e44ad; /* Пурпурний колір для кнопок */
+  color: white;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3); /* Тінь для кнопок */
+  transition: all 0.3s ease; /* Плавний перехід */
+}
+
+#difficultyMenu button:hover {
+  background-color: #6c3483; /* Темніший пурпурний колір при наведенні */
+  transform: scale(1.05); /* Збільшення кнопки при наведенні */
+  box-shadow: 0px 12px 20px rgba(0, 0, 0, 0.4); /* Збільшення тіні при наведенні */
+}
+
+#chimera {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('path/to/chimera-image.jpg'); /* Замініть 'path/to/chimera-image.jpg' на шлях до зображення химери */
+  background-size: cover;
+  background-repeat: no-repeat;
+  filter: grayscale(100%); /* Зображення буде чорно-білим */
+  opacity: 0.3; /* Прозорість зображення */
+  z-index: -1; /* Забезпечуємо, що зображення химери буде позаду іншого вмісту */
+}
