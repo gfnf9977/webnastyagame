@@ -41,13 +41,13 @@ document.addEventListener('DOMContentLoaded', function () {
     // Levels configuration
     const levels = {
         easy: {
-            enemySpeed: 3, // Easy level enemy speed
+            enemySpeed: 2.7, // Easy level enemy speed
         },
         medium: {
-            enemySpeed: 4, // Medium level enemy speed
+            enemySpeed: 3.8, // Medium level enemy speed
         },
         hard: {
-            enemySpeed: 6.5, // Hard level enemy speed
+            enemySpeed: 6.2, // Hard level enemy speed
         }
     };
 
