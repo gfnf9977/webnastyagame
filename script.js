@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function () {
             enemySpeed: 3.8, // Medium level enemy speed
         },
         hard: {
-            enemySpeed: 6.2, // Hard level enemy speed
+            enemySpeed: 5.8, // Hard level enemy speed
         }
     };
 
